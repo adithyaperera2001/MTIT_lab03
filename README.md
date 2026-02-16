@@ -3,7 +3,7 @@
 **SLIIT - IT4020 Modern Topics in IT - Lab 3**  
 Building a microservices architecture using Python FastAPI with API Gateway pattern.
 
-## 🏗️ Architecture
+##  Architecture
 ```
 Client
   ↓ (JWT Authentication)
@@ -36,7 +36,7 @@ microservices-fastapi/
 └── README.md
 ```
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -49,7 +49,7 @@ microservices-fastapi/
 pip install -r requirements.txt
 ```
 
-## 🏃 Running the Application
+## Running the Application
 
 **Terminal 1 - Student Service:**
 ```bash
@@ -69,7 +69,7 @@ cd gateway
 uvicorn main:app --reload --port 8000
 ```
 
-## 🔐 Authentication
+##  Authentication
 
 All API endpoints require JWT authentication.
 
@@ -81,7 +81,7 @@ Add header to all requests:
 Authorization: Bearer YOUR_TOKEN_HERE
 ```
 
-## 📚 API Endpoints
+##  API Endpoints
 
 ### Gateway Root
 - `GET /` - Gateway information
@@ -103,7 +103,7 @@ Authorization: Bearer YOUR_TOKEN_HERE
 - `PUT /gateway/courses/{id}` - Update course
 - `DELETE /gateway/courses/{id}` - Delete course
 
-## 🧪 Testing
+##  Testing
 
 Access interactive API documentation:
 - Gateway: http://localhost:8000/docs
@@ -111,11 +111,9 @@ Access interactive API documentation:
 - Course Service: http://localhost:8002/docs
 
 
-
-
 - Service-specific error handling
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **FastAPI** - Modern Python web framework
 - **Uvicorn** - ASGI server
@@ -124,7 +122,7 @@ Access interactive API documentation:
 - **PyJWT** - JWT authentication
 - **Python 3.13**
 
-## 📝 Lab Details
+##  Lab Details
 
 - **Course:** IT4020 - Modern Topics in IT
 - **Lab:** Practical 3
